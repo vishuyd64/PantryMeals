@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/fav.png" type="image/ico" sizes="16x16">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>PantryMeals</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+<!--     https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/hamburgers.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header boxs  ">
+        <div class="container">
+            <nav class="navbar myNavBar navbar-expand-sm">
+
+                <div class="navbar-header">
+                    <a href="index.html"><img src="img/logo.png" class="img-fluid" alt="logo"></a>
+                </div>
+                <div class="collapse navbar_right navbar-collapse" id="collapsibleNavbar">
+                    <div class="navbar navbar-right">
+                        <ul class="navbar-nav menu">
+                            <li class="nav-item">
+                                <a class="nav-link" href="myRecipeScreen.html"><i class="fa fa-home"
+                                        aria-hidden="true"></i>Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="profileSearch.html"><img src="img/search.png" alt="shopping-cart" class="img-fluid">Search</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pantry.html"><img src="img/fork1.png" alt="shopping-cart" class="img-fluid">Pantry</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="shopping.html"><img src="img/shopping-cart.png" alt="shopping-cart" class="img-fluid"> Shopping List</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0)" class="clickme nav-link active" id="catgry">
+                                    <div class="design">
+                                        <div class="designimg">
+                                            <img src="img/bitmap.png" class="img-fluid" alt="bitmap">
+                                        </div>
+                                        <div class="designtext">
+                                            <h3>Simmi</h3>
+                                            <i class="fas fa-chevron-down"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="sign_drop boxs" style="display: none;">
+                                    <ul>
+                                        <li>
+                                            <div class="designimg" style="margin:0 auto;">
+                                                <img src="img/bitmap.png" class="img-fluid" alt="bitmap">
+                                                <a href="notification.html"><img src="img/alarm.png" class="img-fluid profileAlarm" alt="bitmap"></a>
+                                            </div>
+                                            <div class="designtext d-block text-center">
+                                                <h3 class="ml-0 mb-4">Hi Simmi Sharma</h3>
+                                            </div>
+                                        </li>
+                                        <li><a href="userProfileScreen.html"><img src="img/profile.png" alt="profile" class="img-fluid"> My Profile</a></li>
+                                        <li><a href="favorite.html"><img src="img/favt.png" alt="profile" class="img-fluid"> Saved Recipe </a></li>
+                                        <li><a href="setting.html"><img src="img/setting.png" alt="profile" class="img-fluid"> Settings</a></li>
+                                        <li><a href="aboutPantry.html"><img src="img/aboutPantry.png" alt="profile" class="img-fluid"> About Pantry Meals</a></li>
+                                        <li><a href="privacy.html"><img src="img/privacy.png" alt="profile" class="img-fluid"> Privacy Policy</a></li>
+                                        <li><a href="terms.html"><img src="img/Term.png" alt="profile" class="img-fluid"> Terms & Conditions</a></li> 
+                                        <li><a href="index.html"><img src="img/logout.png" alt="profile" class="img-fluid"> Logout</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </nav>
+            <button class="hamburger hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </div>
+    </header>
+    <div class="sidenav" id="mySidenav">
+        <a href="index.html" class="logo"><img src="img/logo.png" class="img-fluid" alt="logo"></a>
+        <ul>
+            <li class="active"><a href="javaScript:void(0)" class="active ">Home</a></li>
+            <li><a href="javaScript:void(0)" >Search</a></li>
+            <li><a href="javaScript:void(0)" >Pantry</a></li>
+            <li><a href="javaScript:void(0)" >Shopping List</a></li>
+            <li><a href="javaScript:void(0)" >About</a></li>
+            <!-- <li class="nav-item logbtn logbtnGreen">
+                <a class="nav-link" href="javaScript:void(0)">Login/Signup</a>
+            </li> -->
+            <li class="nav-item">
+                <a href="javascript:void(0)" class="clickme" id="catgry">
+                    <div class="design">
+                        <div class="designimg">
+                            <img src="img/bitmap.png" class="img-fluid" alt="bitmap">
+                        </div>
+                        <div class="designtext">
+                            <h3>Simmi</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                </a>
+                <div class="sign_drop boxs" style="display: none;">
+                    <ul>
+                        <li>
+                            <div class="designimg" style="margin:0 auto;">
+                                <img src="img/bitmap.png" class="img-fluid" alt="bitmap">
+                            </div>
+                            <div class="designtext d-block text-center">
+                                <h3 class="ml-0 mb-4">Hi Simmi Sharma</h3>
+                            </div>
+                        </li>
+                        <li><a href="#">My Profile</a></li>
+                        <li><a href="#">My Recipes</a></li>
+                        <li><a href="#">Favorite </a></li>
+                        <li><a href="#"> Settings</a></li>
+                        <li><a href="#"> About PantryMeals</a></li>
+                        <li><a href="#"> Privacy Policy</a></li>
+                        <li><a href="#"> Logout</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+<section class="recipes boxs">
+    <div class="container">
+        <div class="recipesAll boxs">
+            <div class="recipesHead boxs">
+                <h3 class="title">Settings<span class="dotPosition"></span><span class="backPosition"></span></h3>
+            </div>
+            <div class="recipesPara boxs">
+                <div class="editProfileMain boxs">
+                    <div class="loginMain boxs">
+                        <form action="">
+                            <div class="loginForm loginForm2 editLogin boxs">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="contentToggle">
+                                            <span class="Icon"><i class="fa fa-bell mr-2" aria-hidden="true"></i>Notification</span>
+                                            <label class="switch">
+                                                <input type="checkbox">
+                                                <span class="slider round"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <!-- <input type="password" class="form-control" placeholder="Change Password"> -->
+                                            <a href="javaScript:void(0)"  data-toggle="modal" data-target="#resetPasswordModal" class="d-block" ><span class="IconsM">Change Password <i class="fa fa-unlock-alt float-right" aria-hidden="true"></i></span></a>
+                                        </div>
+                                    <!-- </div>
+                                    <div class="col-md-12">
+                                        <div class="loginBtn form_log addhover boxs">
+                                            <button type="submit">Changes Password</button>
+                                        </div>
+                                    </div> -->
+                                </div>
+                                
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+<footer class="footer boxs">
+    <div class="container">
+        <div class="footerall d-inline-block boxs">
+            <div class="footleft d-inline-block">
+                <div class="footLogoImg">
+                    <img src="img/logo.png" class="img-fluid" alt="logo">
+                </div>
+            </div>
+            <div class="footmiddle d-inline-block">
+                <div class="footpart">
+                    <h3>About PantryMeals</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt turpis id augue blandit vestibulum. Nulla a mauris gravida, posuere nisi et, scelerisque risus.</p>
+                </div>
+            </div> 
+                
+            <div class="footRight d-inline-block">
+                <div class="footpart">
+                    <h3>Contact us</h3>
+                    <ul>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i><span class="d-inline-block"><a href="tel:+1-89-87-87-908">+1-89-87-87-908</a></span></li>
+                        <li><i class="fa fa-envelope" aria-hidden="true"></i><span class="d-inline-block"><a href="mailto:admin@gmail.com">admin@gmail.com</a></span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="followUS boxs">
+                <div class="social">
+                    <p>Follow us on : </p>
+                    <a href="javaScript:void(0)" class="facebook"><i class="fa fa-facebook-f"></i></a>
+                    <a href="javaScript:void(0)" class="instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="javaScript:void(0)" class="twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="appStore">
+                    <a href="javaScript:void(0)"><img src="img/app-img1-1.png" alt="app-img1-1" class="img-fluid"></a>
+                    <a href="javaScript:void(0)"><img src="img/app-img2-1.png" alt="app-img1-1" class="img-fluid"></a>
+                </div>
+            </div>
+                
+        </div>
+    </div>
+</footer>
+
+<section class="footerbtm boxs">
+    <div class="container">
+        <div class="bottomFooter boxs">
+            <div class="btmleft d-inline-block ">
+                <p><a href="javaScript:void(0)"> Terms and Conditions </a> · <a href="javaScript:void(0)">Privacy Policy</a> </p>
+            </div>
+            
+            <div class="btmright d-inline-block float-right ">
+                <p class="d-inline-block">© Copyright 2020 All Right Reserved</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- for reset password  -->
+<div class="loginMODAL otpMODAL modal" id="resetPasswordModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-body">
+            <div class="loginMain boxs">
+                <div class="modalLogo">
+                    <img src="img/logo.png" alt="logo" class="img-fluid">
+                </div>
+                <form action="/action_page.php" method="get">
+                    <div class="loginForm loginForm3 boxs">
+                        <h2>Reset your password by creating new
+                            password</h2>
+                        <button type="button" class="close" data-dismiss="modal">
+                            <i class="fa fa-times" aria-hidden="true"></i>                            
+                        </button>
+                        <div class="row otpRow">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="password" class="form-control form_pass" placeholder="Enter old password">
+                                    <span class="Icon"><img src="img/key1.png" alt="key1" class="img-fluids"></span>
+                                    <span class="eye"><a href="javaScript:void(0)"><img src="img/eye.png" alt="eye" class="img-fluid"></a></span>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="password" class="form-control form_pass" placeholder="Create new password">
+                                    <span class="Icon"><img src="img/key1.png" alt="key1" class="img-fluids"></span>
+                                    <span class="eye"><a href="javaScript:void(0)"><img src="img/eye.png" alt="eye" class="img-fluid"></a></span>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="password" class="form-control form_pass" placeholder="Create new password">
+                                    <span class="Icon"><img src="img/key1.png" alt="key1" class="img-fluids"></span>
+                                    <span class="eye"><a href="javaScript:void(0)"><img src="img/eye.png" alt="eye" class="img-fluid"></a></span>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="loginBtn form_log addhover boxs">
+                                    <button type="submit"  data-dismiss="modal" data-toggle="modal" data-target="#updatePasswordModal" >Continue</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+</div>
+<!-- reset password ended  -->
+<!-- for update password  -->
+<div class="loginMODAL updateMODAL otpMODAL modal" id="updatePasswordModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-body">
+            <div class="loginMain boxs">
+                <div class="modalLogo">
+                    <img src="img/logo.png" alt="logo" class="img-fluid">
+                </div>
+                <form action="/action_page.php" method="get">
+                    <div class="loginForm loginForm4 boxs">
+                        <img src="img/tick.png" alt="tick" class="img-fluid">
+                        <h2>your password has been
+                            update successfully</h2>
+                        <button type="button" class="close" data-dismiss="modal">
+                            <i class="fa fa-times" aria-hidden="true"></i>                            
+                        </button>
+                        <div class="row otpRow">
+                            <div class="col-md-12">
+                                <div class="loginBtn form_log addhover boxs">
+                                    <button type="submit" formaction="setting.html">Continue</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+</div>
+<!-- update password ended  -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/custom.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js?onload=onloadCallback'></script>
+</body>
+
+</html>

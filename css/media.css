@@ -1,0 +1,954 @@
+@media(max-width: 1199px){
+
+    .doller{
+        font-size: 34px;
+    }
+    .triangle {
+        bottom: 149px;
+    }
+    ul.menu li {
+        margin: 0 8px;
+    }
+    .foodxWorldMain h2 {
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .greenBar {
+        height: 12px;
+        top: 25px;
+    }
+    .trustTxt {
+        padding: 148px 20% 23px;
+    }
+    .mainlaunch .launchTxt p {
+        font-size: 19px;
+        line-height: 26px;
+    }
+    .aboutLeft h3 {
+        font-size: 27px;
+        line-height: 33px;
+        padding-bottom: 21px;
+    }
+    .about {
+        padding: 145px 0 60px;
+        margin-top: -84px;
+    }
+    .perfect {
+        padding: 60px 0 52px;
+    }
+    .foodxApp {
+        padding: 30px 0 62px;
+    }
+    .leftImg2 {
+        bottom: -81px;
+    }
+    .dummyLeft h3 {
+        font-size: 33px;
+        line-height: 45px;
+    }
+    .dummyPart {
+        padding: 60px 0 60px;
+    }
+    .webpartInner{
+        width: 202px;
+    }
+    .perfectDemo .launchTxt p.cafe1{
+        padding-bottom: 10px;
+    }
+    .priceLeft h2 {
+        font-size: 33px;
+        line-height: 40px;
+    }
+    .greenBar2 {
+        top: 22px;
+        height: 9px;
+    }
+    .trustImg {
+        width: 877px;
+    }
+    .trustBtn {
+        left: 38%;
+    }
+    .supportRight {
+        width: 460px;
+        top: 49px;
+    }
+    .supportRight img{
+        height: auto;
+    }
+    .support .rectangle2{
+        display: none;
+    }
+    .faq {
+        padding: 60px 0;
+    }
+    .faq .faqAccordions{
+        padding-top: 20px;
+    }
+    /* .set2 a span {
+        font-size: 19px;
+        line-height: 29px;
+    } */
+    /* .set2 {
+        padding: 25px 0;
+    } */
+ 
+    .menTxt h3 {
+        font-size: 26px;
+    }
+    .menTxt span {
+        font-size: 17px;
+        line-height: 21px;
+    }
+    .prolftSlick {
+        padding-top: 28px;
+    }
+    .slkimg {
+        padding-bottom: 25px;
+    }
+    .slicko p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .patterns {
+        width: 239px;
+        height: 741px;
+    }
+    .customer {
+        padding: 80px 0;
+    }
+    .customerForm {
+        padding: 35px 25px;
+    }
+    .customerForm .form-group .form-control {
+        padding: 6px 0px 15px;
+    }
+    .countries {
+        padding-bottom: 23px !important;
+    }
+
+    .surpriseButtn {
+        padding: 10px 52px;
+    }
+    .footpart ul li {
+        font-size: 18px;
+        line-height: 34px;
+    }
+    .footpart h3 {
+        font-size: 20px;
+        padding-bottom: 17px;
+    }
+    .footleft {
+        padding-right: 30px;
+    }
+    .footmiddle {
+        padding: 0 25px;
+    }
+    .footerbtm {
+        padding: 15px 0;
+    }
+    .btmright a {
+        font-size: 19px;
+    }
+    .btmright h5 {
+        font-size: 17px;
+    }
+    .privacy {
+        padding: 35px 0;
+    }
+}
+
+@media(max-width: 991px){
+
+    .privacy {
+        margin-top: 66px;
+    }
+    .header .hamburger {
+        display: block;
+    }
+    .navbar-collapse.collapse{
+        display: none !important;
+    }
+    .navbar-expand-sm{
+        display: inline-block;
+    }
+    .navbar-nav{
+        display: none !important;
+    }
+    .navbar-header{
+        float: initial;
+    }
+    .foodxWorldMain h2 {
+        font-size: 29px;
+        line-height: 36px;
+    }
+    /* .greenBar {
+        height: 10px;
+        top: 17px;
+    } */
+    .rectangle11{
+        top: -57px;
+    }
+    .foodxWorld {
+        padding-top: 30px;
+    }
+    .greenBar {
+        height: 7px;
+        top: 19px;
+    }
+    .mainlaunch .launchTxt p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .mainlaunch {
+        margin-bottom: 30px;
+    }
+    .logbtn{
+        margin: 10px 0;
+    }
+    .logbtn a{
+        padding: 8px 7px !important;
+    }
+    .mainlaunch .launchImg {
+        width: 45px;
+        height: 46px;
+    }
+    p.realTime {
+        padding-left: 0;
+    }
+    .greenBox {
+        width: 35px;
+        height: 35px;
+    }
+    li.launchBtnWhite {
+        width: 150px;
+    }
+    li.launchBtnGreen {
+        width: 150px;
+    }
+    .logbtnWhite a{
+        font-size: 16px;
+    }
+    .logbtnGreen a{
+        font-size: 16px;
+    }
+    .btns1{
+        margin-bottom: 20px;
+    }
+    .launch2{
+        padding-top: 15px;
+    }
+    .about {
+        padding: 115px 0 60px;
+        margin-top: -54px;
+    }
+    .aboutLeft h3 {
+        font-size: 19px;
+        line-height: 26px;
+        padding-bottom: 15px;
+    }
+    .innerPlaceholder img {
+        height: 50px;
+        width: 50px;
+    }
+    .innerPlaceholder {
+        margin: 0 20px;
+        padding-top: 25px;
+    }
+    .btnsgroups {
+        padding: 25px 0;
+    }
+    .foodxApp {
+        padding: 30px 0 40px;
+    }
+    .hereWork {
+        padding: 48px 0;
+    }
+    h2.hereWord {
+        padding-bottom: 50px;
+    }
+    .leftImg {
+        width: 169px;
+    }
+    .leftImg2 {
+        bottom: 0;
+    }
+    p.paraSub {
+        padding-right: 0;
+    }
+    .rectangle {
+        width: 63px;
+    }
+    .triangle {
+        bottom: 229px;
+        width: 100px;
+    }
+    .dummyLeft h3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .price {
+        padding-top: 30px;
+    }
+    .priceLeft1{
+        padding-top: 0;
+    }
+    .priceLeft h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .greenBar2 {
+        height: 7px;
+        top: 16px;
+    }
+    .priceLeft h5 {
+        font-size: 20px;
+        line-height: 45px;
+    }
+    .Inclusions h5 {
+        font-size: 28px;
+    }
+    .webpartInner {
+        width: 47%;
+    }
+    .webpartInner2::after{
+        content: none;
+    }
+    .webpartInner2{
+        margin-right: 0 !important;
+    }
+    .surpriseMain {
+        padding: 30px 30px;
+    }
+    .surpriseRight p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .trustImg {
+        width: 655px;
+    }
+    .trustTxt {
+        padding: 25px 20% 23px;
+    }
+    .trustBtn {
+        width: 160px;
+    }
+    .supportRight {
+        width: 360px;
+        top: 104px;
+    }
+    .set2 a span {
+        line-height: 24px;
+    }
+    
+    .menTxt span {
+        font-size: 14px;
+    }
+    .menImg {
+        height: 70px;
+        width: 70px;
+    }
+    .slicko p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .prolftSlick {
+        padding-top: 0;
+    }
+    .customerForm .form-group .form-control {
+        padding: 6px 0px 6px;
+    }
+    .customerForm .form-group .form-control {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .countries {
+        padding-bottom: 9px !important;
+    }
+    .newBtncol{
+        ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .capta {
+        display: block;
+        align-items: center;
+    }
+    .newbtn {
+        margin-top: 15px;
+    }
+    .patterns {
+        width: 181px;
+        height: 731px;
+    }
+    .rectangle3 {
+        bottom: 38px;
+    }
+    .certificatesMain img {
+        width: 80px;
+    }
+    .footpart ul li {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .footLogoImg{
+        width: 120px;
+    }
+    .footleft {
+        padding-right: 15px;
+    }
+    .footmiddle {
+        padding: 0 15px;
+    }
+    .footpart h3 {
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+    .footpart ul li {
+        font-size: 15px;
+    }
+    .footerbtm {
+        padding: 10px 0;
+    }
+    .btmleft p {
+        font-size: 14px;
+    }
+    .btmright h5 {
+        font-size: 15px;
+    }
+    .btmright a {
+        font-size: 17px;
+    }
+    /* .set2 {
+        padding: 20px 0;
+    } */
+    .nav-tabs .nav-link.active {
+        font-size: 16px;
+    }
+    .header {
+        padding: 8px 0 8px 0;
+    }
+    .header .navbar-header a img{
+        width: 145px;
+    }
+    .foodxWorld {
+        margin-top: 68px;
+    }
+    .privacyText h2{
+        font-size: 33px;
+        line-height: 40px;
+    }
+    .greenBar.greenPrivacy{
+        top: 22px;
+        height: 9px;
+    }
+}
+
+@media(max-width: 767px){
+
+    .padded{
+        display: none;
+    }
+    .privacy {
+        padding: 30px 0 0;
+    }
+    .contentPrivacyHead p, .privacyText p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .contentPrivacyHead ul li {
+        font-size: 15px;
+    }
+    .navbar-expand-sm .navbar-collapse.navbar_right {
+        text-align: initial;
+        display: none !important;
+    }
+    .foodxWorld {
+        /* margin-top: 101px; */
+        padding-top: 0;
+    }
+    .dots {
+        position: absolute;
+        right: initial;
+        left: 160px;
+        top: 0px;
+    }
+    .footRight {
+        position: relative;
+        width: 272px;
+    }
+    .about {
+        padding: 75px 0 60px;
+    }
+    .aboutLeft{
+        margin-top: 40px;
+    }
+    .perfectPad h2{
+        padding-top: 0;
+    }
+    .perfectRight{
+        padding-left: 10px;
+    }
+    .triangle {
+        bottom: 230px;
+    }
+    .rectangle {
+        width: 58px;
+    }
+    .rectangle11 {
+        top: -49px;
+    }
+    .rectangle2 {
+        width: 51px;
+    }
+    .workRight{
+        width: 416px;
+    margin: 0 auto;
+    float: inherit;
+    }
+    .leftImg{
+        display: none;
+    }
+    .rectangle5 {
+        bottom: 0;
+    }
+    .dummyLeft h3 {
+        font-size: 19px;
+        line-height: 30px;
+    }
+    li.launchBtnWhite {
+        width: 139px;
+    }
+    .dummyPart {
+        padding: 40px 0;
+    }
+    .priceRight {
+        width: 415px;
+        float: initial;
+        margin: 0 auto;
+    }
+    .priceLeft h2 {
+        padding-bottom: 15px;
+    }
+    .pricePara {
+        padding-bottom: 30px;
+    }
+    .webpartInner {
+        width: 46%;
+    }
+    .trustImg {
+        width: 90%;
+        right: 0;
+    }
+    .mainlaunch {
+        margin-bottom: 20px;
+    }
+    .launch2 {
+        padding-left: 11px;
+        padding-bottom: 15px;
+    }
+    .mainlaunch.mainlaunch1 {
+        margin-bottom: 0;
+        padding-top: 25px;
+    }
+    .trustMain {
+        padding: 270px 0px 0;
+    }
+    .supportLeft {
+        width: 100%;
+        padding-top: 20px;
+    }
+    .supportRight{
+        position: initial;
+        width: 100%;
+        padding-top: 20px;
+        height: auto;
+    }
+    .faq {
+        padding: 30px 0;
+    }
+    .customerLeft {
+        padding-top: 0;
+    }
+    .customer {
+        padding: 30px 0;
+    }
+    .slick-dotted.slick-slider {
+        margin-bottom: 130px;
+    }
+    .patterns {
+        width: 231px;
+        /* height: 784px; */
+        top: initial;
+        height: 660px;
+        bottom: 0;
+    }
+    .aboutLeft p {
+        padding-bottom: 15px;
+    }
+    .rectangle3, .rectangle4{
+        display: none;
+    }
+    .newbtn {
+        text-align: initial;
+        float: left;
+    }
+    .footmiddle {
+        padding: 0 15px 55px 0;
+        width: 50%;
+    }
+    .footleft {
+        width: 50%;
+    }
+    .footer {
+        padding: 30px 0 0;
+    }
+    .btmleft p {
+        line-height: 22px;
+    }
+    .btmright h5 {
+        /* font-size: 14px;
+        padding-right: 0; */
+        display: none !important;
+    }
+    .btmright a {
+        font-size: 19px;
+    }
+    .trustTxt {
+        padding: 25px 15% 23px;
+    }
+    .greenBar2 {
+        top: 15px;
+    }
+    .surpriseRight p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+}
+
+@media(max-width: 560px){
+
+    .privacyText h2 {
+        font-size: 28px;
+        line-height: 37px;
+    }
+    .greenBar.greenPrivacy{
+        height: 7px;
+        top: 18px;
+    }
+    .surpriseMain {
+        padding: 30px 12px;
+    }
+    .trustImg {
+        width: 100%;
+    }
+    .triangle {
+        bottom: 282px;
+        width: 86px;
+    }
+    .innerPlaceholder p {
+        font-size: 15px;
+        padding-top: 14px;
+        line-height: 20px;
+    }
+    .dummyMain {
+        display: block;
+    }
+    .colAreaLeft {
+        width: 100%;
+    }
+    .colAreaRight {
+        width: 100%;
+        text-align: center;
+        margin-top: 25px;
+    }
+    .osTxt h6{
+        font-size: 15px;
+    }
+    .webpartInner {
+        margin-right: 30px;
+        min-height: 280px;
+        padding: 30px 0 30px 16px
+    }
+    .webpartInner::after {
+        right: -27px;
+    }
+    .mainlaunch .launchImg {
+        width: 35px;
+        height: 36px;
+    }
+    .greenBox {
+        bottom: -7px;
+    }
+    .surpriseRight p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .priceRight {
+        width: 100%;
+    }
+    .workRight {
+        width: 100%;
+    }
+    .trustBtn {
+        left: 29%;
+    }
+    /* .trustMain {
+        padding: 210px 0px 0;
+    } */
+    .trustTxt {
+        padding: 25px 2% 23px;
+    }
+    .bottomFooter {
+        display: block;
+    }
+    .btmright h5 {
+        display: block !important;
+    }
+    .btmright{
+        float: left !important;
+    }
+    .secure{
+        padding: 8px 0;
+    }
+    .aboutLeft p {
+        padding-bottom: 12px;
+    }
+    .dots{
+        display: none;
+    }
+    .footRight{
+        display: none;
+    }
+    .about {
+        padding: 50px 0 50px;
+        margin-top: 0;
+    }
+    .perfect {
+        padding: 45px 0 52px;
+    }
+    .innerPlaceholder {
+        margin: 0;
+        width: 49%;
+    }
+    .btmright a.facebook{
+        margin-left: 0em;
+    }
+    .set2 a span {
+        line-height: 21px;
+    }
+    .contentPrivacyHead h5{
+        line-height: 27px;
+    }
+    .contentPrivacyHead ul {
+        padding-bottom: 15px;
+    }
+    .contentPrivacyHead article{
+        padding-bottom: 10px;
+    }
+}
+
+@media(max-width: 414px){
+
+    .privacyText.priceLeft h2 {
+        font-size: 28px;
+        line-height: 37px;
+    }
+    .surpriseMain{
+        display: block;
+        padding: 30px 30px;
+    }
+    .surpriseLeft {
+        width: 100%;
+    }.surpriseRight {
+        width: 100%;
+    }
+    .surpriseBtn {
+        width: 100%;
+        margin: 0;
+    }
+    .webpartInner {
+        width: 100%;
+        padding: 30px 30px;
+        margin-right: 0;
+    }
+    .webpartInner::after{
+        display: none   ;
+    }
+    /* .foodxWorldMain h2 {
+        font-size: 23px;
+        line-height: 32px;
+        padding-top: 28px;
+    }
+    .greenBar {
+        height: 6px;
+        top: 15px;
+    } */
+    .greenBar2{
+        height: 6px;
+    }
+    li.launchBtnGreen {
+        width: 100%;
+    }
+    li.launchBtnWhite {
+        width: 100%;
+    }
+    .nav-item.launchBtnGreen{
+        margin-bottom: 20px;
+    }
+    .aboutLeft h3 {
+        font-size: 17px;
+    }
+    .aboutLeft p {
+        font-size: 15px;
+        line-height: 23px;
+        padding-bottom: 10px;
+    }
+    /* .logbtnGreen a {
+        padding: 8px 28px !important;
+    } */
+    .about {
+        padding: 75px 0 30px;
+    }
+    .perfect {
+        padding: 16px 0 60px;
+    }
+    .triangle {
+        bottom: 317px;
+        width: 66px;
+    }
+    .innerPlaceholder img {
+        height: 35px;
+        width: 36px;
+        height: 42px;
+        width: 42px;
+    }
+    .innerPlaceholder p {
+        font-size: 13px;
+        padding-top: 7px;
+        line-height: 16px;
+        /* font-size: 14px;
+        padding-top: 11px;
+        line-height: 17px; */
+    }
+    /* .innerPlaceholder {
+        margin: 0 15px;
+    } */
+    .priceLeft h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .priceLeft h5 {
+        font-size: 17px;
+    }
+    .priceLeft p {
+        line-height: 25px;
+    }
+    .Inclusions h5 {
+        font-size: 24px;
+    }
+    .trustImg {
+        width: 100%;
+    }
+    .trustMain {
+        padding: 220px 0px 0;
+    }
+    .trustBtn {
+        left: 28px;
+        width: 80%;
+        bottom: -18px;
+    }
+    .supportLeft p {
+        line-height: 23px;
+        font-size: 16px;
+    }
+    /* .set2 a span {
+        font-size: 16px;
+        line-height: 22px;
+    } */
+    .set2 {
+        border-bottom: 1px solid #00000080;
+        /* padding: 15px 0; */
+    }
+
+    .greenBar2 {
+        height: 6px;
+        top: 13px;
+    }
+    .faqAccordions h2{
+        padding-bottom: 0;
+    }
+    .menTxt h3 {
+        font-size: 20px;
+    }
+    .customerForm span.spam {
+        font-size: 15px;
+    }
+    .newbtn {
+        width: 100%;
+    }
+    .surpriseButtn {
+        width: 100%;
+    }
+    .patterns {
+        width: 125px;
+        /* height: 697px; */
+        height: 773px;
+    }
+    .slick-dots {
+        bottom: -50px;
+    }
+    .footleft {
+        width: 100%;
+    }
+    .footLogoImg {
+        width: 100%;
+    }
+    .footmiddle {
+        padding: 15px 15px 15px 0;
+        width: 100%;
+    }
+    /* .rc-anchor-normal {
+        width: 230px !important;
+    } */
+    /* .recaptcha{
+        display: none;
+    } */
+    .slick-dotted.slick-slider {
+        margin-bottom: 100px;
+    }
+    .recaptcha div{
+        transform:scale(0.9);
+        -webkit-transform:scale(0.9);
+        transform-origin:0 0;
+        -webkit-transform-origin:0 0;
+    }
+    .close {
+        top: 10px;
+        right: 10px;
+        width: 32px;
+        height: 33px;
+    }
+    .rectangle11 {
+        top: -48px;
+        width: 54px;
+    }
+    .hereWork {
+        padding: 30px 0;
+    }
+    .btnsgroups {
+        overflow: initial;
+        white-space: normal;
+        overflow-y: initial;
+        /* padding: 36px 0; */
+    }
+    .btnfixed {
+        margin: 0;
+    }
+    .certificatesMain img {
+        margin: 0 30px 10px;
+    }
+    .contentPrivacyHead h5 {
+        line-height: 25px;
+    }
+}

@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/fav.png" type="image/ico" sizes="16x16">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>PantryMeals</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+<!--     https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel='stylesheet' href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
+    <link href="css/hamburgers.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header boxs  ">
+        <div class="container">
+            <nav class="navbar myNavBar navbar-expand-sm">
+
+                <div class="navbar-header">
+                    <a href="index.html"><img src="img/logo.png" class="img-fluid" alt="logo"></a>
+                </div>
+                <div class="collapse navbar_right navbar-collapse" id="collapsibleNavbar">
+                    <div class="navbar navbar-right">
+                        <ul class="navbar-nav menu">
+                            <li class="nav-item">
+                                <a class="nav-link" href="myRecipeScreen.html"><i class="fa fa-home"
+                                        aria-hidden="true"></i>Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="profileSearch.html"><img src="img/search.png" alt="shopping-cart" class="img-fluid">Search</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pantry.html"><img src="img/fork1.png" alt="shopping-cart" class="img-fluid">Pantry</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="shopping.html"><img src="img/shopping-cart.png" alt="shopping-cart" class="img-fluid"> Shopping List</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0)" class="clickme nav-link active" id="catgry">
+                                    <div class="design">
+                                        <div class="designimg">
+                                            <img src="img/bitmap.png" class="img-fluid" alt="bitmap">
+                                        </div>
+                                        <div class="designtext">
+                                            <h3>Simmi</h3>
+                                            <i class="fas fa-chevron-down"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="sign_drop boxs" style="display: none;">
+                                    <ul>
+                                        <li>
+                                            <div class="designimg" style="margin:0 auto;">
+                                                <img src="img/bitmap.png" class="img-fluid" alt="bitmap">
+                                                <a href="notification.html"><img src="img/alarm.png" class="img-fluid profileAlarm" alt="bitmap"></a>
+                                            </div>
+                                            <div class="designtext d-block text-center">
+                                                <h3 class="ml-0 mb-4">Hi Simmi Sharma</h3>
+                                            </div>
+                                        </li>
+                                        <li><a href="userProfileScreen.html"><img src="img/profile.png" alt="profile" class="img-fluid"> My Profile</a></li>
+                                        <li><a href="favorite.html"><img src="img/favt.png" alt="profile" class="img-fluid"> Saved Recipe </a></li>
+                                        <li><a href="setting.html"><img src="img/setting.png" alt="profile" class="img-fluid"> Settings</a></li>
+                                        <li><a href="aboutPantry.html"><img src="img/aboutPantry.png" alt="profile" class="img-fluid"> About Pantry Meals</a></li>
+                                        <li><a href="privacy.html"><img src="img/privacy.png" alt="profile" class="img-fluid"> Privacy Policy</a></li>
+                                        <li><a href="terms.html"><img src="img/Term.png" alt="profile" class="img-fluid"> Terms & Conditions</a></li> 
+                                        <li><a href="index.html"><img src="img/logout.png" alt="profile" class="img-fluid"> Logout</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </nav>
+            <button class="hamburger hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </div>
+    </header>
+    <div class="sidenav" id="mySidenav">
+        <a href="index.html" class="logo"><img src="img/logo.png" class="img-fluid" alt="logo"></a>
+        <ul>
+            <li class="active"><a href="javaScript:void(0)" class="active ">Home</a></li>
+            <li><a href="javaScript:void(0)" >Search</a></li>
+            <li><a href="javaScript:void(0)" >Pantry</a></li>
+            <li><a href="javaScript:void(0)" >Shopping List</a></li>
+            <li><a href="javaScript:void(0)" >About</a></li>
+            <!-- <li class="nav-item logbtn logbtnGreen">
+                <a class="nav-link" href="javaScript:void(0)">Login/Signup</a>
+            </li> -->
+            <li class="nav-item">
+                <a href="javascript:void(0)" class="clickme" id="catgry">
+                    <div class="design">
+                        <div class="designimg">
+                            <img src="img/bitmap.png" class="img-fluid" alt="bitmap">
+                        </div>
+                        <div class="designtext">
+                            <h3>Simmi</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                </a>
+                <div class="sign_drop boxs" style="display: none;">
+                    <ul>
+                        <li>
+                            <div class="designimg" style="margin:0 auto;">
+                                <img src="img/bitmap.png" class="img-fluid" alt="bitmap">
+                            </div>
+                            <div class="designtext d-block text-center">
+                                <h3 class="ml-0 mb-4">Hi Simmi Sharma</h3>
+                            </div>
+                        </li>
+                        <li><a href="#">My Profile</a></li>
+                        <li><a href="#">My Recipes</a></li>
+                        <li><a href="#">Favorite </a></li>
+                        <li><a href="#"> Settings</a></li>
+                        <li><a href="#"> About PantryMeals</a></li>
+                        <li><a href="#"> Privacy Policy</a></li>
+                        <li><a href="#"> Logout</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+<section class="recipes boxs">
+    <div class="container">
+        <div class="recipesAll boxs">
+            <div class="recipesHead AddrecipesHead boxs">
+                <h3 class="title">Upload New Recipe <span class="dotPosition"></span><span class="backPosition"></span></h3>
+            </div>
+            <div class="addRecipe boxs">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="addrecipeLeft boxs">
+                            <div class="avatar-upload">
+                                <div class="avatar-preview">
+                                    <div id="imagePreview" style="background-image: url(./img/food1.png);">
+                                    </div>
+                                </div>
+                                <div class="avatar-edit">
+                                    <input type="file" id="imageUpload" accept=".png, .jpg, .jpeg">
+                                    <label for="imageUpload">Upload Recipe Image</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cookingTime boxs" style="padding-top: 177px;">
+                            <h3 class="title">Select the coocking time</h3>
+                        </div>
+                        <div class="cookingTime boxs" style="padding-top: 75px;">
+                            <h3 class="title">Select Recipe Type</h3>
+                        </div>
+                        <div class="cookingTime boxs" style="padding-top: 95px;">
+                            <h3 class="title">Select Cusine</h3>
+                        </div>
+                        <div class="cookingTime boxs" style="padding-top: 58px;">
+                            <h3 class="title">Sub-Ingredients</h3>
+                        </div>
+                        <div class="cookingTime boxs" style="padding-top: 182px;">
+                            <h3 class="title">Calories</h3>
+                        </div>
+                        <div class="cookingTime boxs" style="padding-top: 50px;">
+                            <h3 class="title">Add Step for  Cooking </h3>
+                        </div>
+                    </div>
+
+                    <div class="col-md-9">
+                        <div class="addrecipeRight boxs">
+                            <form action="">
+                                <div class="form-group">
+                                    <h3 class="title">Add Name of Recipe</h3>
+                                    <input type="text" class="form-control" placeholder="Hot Prawn Noodles">
+                                </div>
+                                <div class="form-group pt-3">
+                                    <h3 class="title">Add Description</h3>
+                                    <textarea cols="20" rows="5" class="form-control" placeholder="Suspe ndisse suscipit sagittis leo sit met condimentum estibulum issim Lorem ipsum dolor sit amet, consectetur cing elit. Suspe ndisse suscipit sagittis leo sit met condimentum estibulum issim Lorem ipsum dolor sit amet, consectetur cing elit. Suspe ndisse suscipit sagittis leo sit met condimentum estibulum issim Lorem ipsum dolor."></textarea>
+                                </div>
+                                <div id="time-range" class="pt-5 pb-5">  
+                                    <p>Time to cook <span class="slider-time">49 min</span></p>
+                                    <div id="slider-range" class="slider-range"></div>
+                                </div>
+                                <div class="cusinArea boxs">
+                                    <ul class="userFollow2 userFollow22">
+                                        <li><a href="#0" class="active">Lunch</a></li>
+                                        <li><a href="#0">Breakfast</a></li>
+                                        <li><a href="#0">Dinner</a></li>
+                                        <li><a href="#0">Drinks</a></li>
+                                    </ul>
+                                </div>
+                                <div class="cusinArea boxs">
+                                    <ul class="userFollow2 userFollow21">
+                                        <li><a href="#0" class="active">Indian</a></li>
+                                        <li><a href="#0">Bangla</a></li>
+                                        <li><a href="#0">American</a></li>
+                                        <li><a href="#0">Italian</a></li>
+                                        <li><a href="#0">Mexican</a></li>
+                                    </ul>
+                                </div>
+                                <div class="form-group pt-3">
+                                    <a href="javaScript:void(0)" class="btnAdd"><img src="img/add.png" alt="add" class="img-fluid"> Add Items</a>
+                                    <div class="ingredients boxs">
+                                        <div class="ingredientsInner">
+                                            <div class="ingredientsLeft">
+                                                <img src="img/food2.png" alt="food2" class="img-fluid">
+                                                <P>Noodles</P>
+                                            </div>
+                                            <div class="gramKg">
+                                                <input type="text" class="form-control formControlGram" placeholder="250">
+                                                <select name="gram" id="">
+                                                    <option value="">gram</option>
+                                                    <option value="">kg</option>
+                                                    <option value="">kg</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="ingredientsInner">
+                                            <div class="ingredientsLeft">
+                                                <img src="img/food2.png" alt="food2" class="img-fluid">
+                                                <P>Noodles</P>
+                                            </div>
+                                            <div class="gramKg">
+                                                <input type="text" class="form-control formControlGram" placeholder="250">
+                                                <select name="gram" id="">
+                                                    <option value="">gram</option>
+                                                    <option value="">kg</option>
+                                                    <option value="">kg</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group boxs pt-5">
+                                    <input type="text" class="form-control  pt-4" placeholder="Enter Calories">
+                                </div>
+                                <div class="form-group pt-3">
+                                    <a href="javaScript:void(0)" class="btnAdd extra-fields-customer"><img src="img/add.png" alt="add" class="img-fluid"> Add Step</a>
+
+
+                                    <div class="row">
+                                        <div class="customer_records">
+                                          <div class="ingredients ingredientsStep boxs">
+                                            <div class="ingredientsInner">
+                                                <P>Noodles</P>
+                                                <div class="avatar-upload avty">
+                                                    <div class="avatar-preview">
+                                                        <div id="imagePreview" style="background-image: url(./img/food1.png);">
+                                                        </div>
+                                                    </div>
+                                                    <div class="avatar-edit">
+                                                        <input type="file" id="imageUpload9" accept=".png, .jpg, .jpeg">
+                                                        <label for="imageUpload9"></label>
+                                                    </div>
+                                                </div>
+                                                <div class="gramKg">
+                                                    <textarea cols="70" rows="4" class="form-control" placeholder="Suspe ndisse suscipit sagittis leo sit met condimentum estibulum issim Lorem ipsum dolor sit amet, consectetur cing elit. Suspe ndisse suscipit sagittis leo sit met condimentum estibulum issim Lorem ipsum dolor sit amet, consectetur cing elit."></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                      
+                                        <div class="customer_records_dynamic"></div>
+                                      
+                                      </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="addToshop uploadBtnRecipe text-center pt-4 boxs">
+                                        <a href="userProfileScreen.html" >Upload Recipes</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+<footer class="footer boxs">
+    <div class="container">
+        <div class="footerall d-inline-block boxs">
+            <div class="footleft d-inline-block">
+                <div class="footLogoImg">
+                    <img src="img/logo.png" class="img-fluid" alt="logo">
+                </div>
+            </div>
+            <div class="footmiddle d-inline-block">
+                <div class="footpart">
+                    <h3>About PantryMeals</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt turpis id augue blandit vestibulum. Nulla a mauris gravida, posuere nisi et, scelerisque risus.</p>
+                </div>
+            </div> 
+                
+            <div class="footRight d-inline-block">
+                <div class="footpart">
+                    <h3>Contact us</h3>
+                    <ul>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i><span class="d-inline-block"><a href="tel:+1-89-87-87-908">+1-89-87-87-908</a></span></li>
+                        <li><i class="fa fa-envelope" aria-hidden="true"></i><span class="d-inline-block"><a href="mailto:admin@gmail.com">admin@gmail.com</a></span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="followUS boxs">
+                <div class="social">
+                    <p>Follow us on : </p>
+                    <a href="javaScript:void(0)" class="facebook"><i class="fa fa-facebook-f"></i></a>
+                    <a href="javaScript:void(0)" class="instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="javaScript:void(0)" class="twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="appStore">
+                   <a href="javaScript:void(0)"><img src="img/app-img1-1.png" alt="app-img1-1" class="img-fluid"></a>
+                   <a href="javaScript:void(0)"><img src="img/app-img2-1.png" alt="app-img1-1" class="img-fluid"></a>
+                </div>
+            </div>
+                
+        </div>
+    </div>
+</footer>
+
+<section class="footerbtm boxs">
+    <div class="container">
+        <div class="bottomFooter boxs">
+            <div class="btmleft d-inline-block ">
+                <p><a href="terms.html"> Terms and Conditions </a> · <a href="javaScript:void(0)">Privacy Policy</a> </p>
+            </div>
+            
+            <div class="btmright d-inline-block float-right ">
+                <p class="d-inline-block">© Copyright 2020 All Right Reserved</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
